@@ -95,7 +95,6 @@ body.cpanel-background .filter-nav.settings-nav span,
 .size-label,
 .floating-popup.floating-popup-list ul li a,
 .floating-popup .bound-popup input {
-  font-family: proxima-nova, sans-serif !important;
 }
 
 .discard-changes i.fa.fa-trash {
@@ -134,7 +133,6 @@ span.explain-text.ta-left.f-left.col20.mb-15,
 .none-soft .text-wrapper span,
 .pricetable-wrapper h1,
 .new-badge {
-  font-family: proxima-nova, sans-serif;
 }
 
 .subscription-price.transition-all2 {
@@ -1891,7 +1889,7 @@ body.cpanel-background
 a.button-tooltip.system-bg-color {
   background: rgba(4, 209, 113) !important;
   text-transform: capitalize;
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .column-settings.column-settings2 .style-button,
@@ -4616,7 +4614,7 @@ a.delete-coupon i:before {
 .corner-message-success {
   background-color: #fff !important;
   color: #000;
-  font-family: proxima-nova, sans-serif !important;
+  
   font-size: 14px;
   margin-right: 15px;
   box-shadow: 0 8px 23px 3px rgba(50, 50, 50, 0.18);
@@ -7084,7 +7082,7 @@ body.cpanel-background
   background-color: #fff !important;
   color: #000;
   text-transform: capitalize;
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 #active-widget-settings#active-widget-settings
@@ -7508,7 +7506,7 @@ body.cpanel-background
   background: #fff !important;
   color: #000 !important;
   text-transform: capitalize;
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .header-widget-controls .header-btn.with-label:hover,
@@ -7959,7 +7957,7 @@ body.cpanel-background
 .blog-settings-area .add-blog-tags .toggle-opened,
 .blog-settings-area .add-blog-tags .toggle-closed,
 .blog-settings-area .add-blog-tags .tags-wrapper ul li span {
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .blog-settings-area > .add-blog-tags > .info > h3 {
@@ -8046,7 +8044,7 @@ body.cpanel-background
   margin-top: 12px;
   background-color: #fff !important;
   text-indent: 2px;
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .add-blog-tags {
@@ -8116,7 +8114,7 @@ body.cpanel-background
   .header
   .backToPostsBtn2 {
   text-transform: capitalize;
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .cpanel-popup.cpanel-file-manager
@@ -8340,7 +8338,7 @@ body.cpanel-background
 
 .ui-autocomplete .ui-menu-item div {
   font-size: 12px;
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .full-height-popup.cpanel-popup input[name="braintreePrivateKey"],
@@ -9183,7 +9181,7 @@ body.cpanel-background
   a.add-widget-bottom:before {
   content: "Add Element";
   font-size: 14px;
-  font-family: proxima-nova, sans-serif !important;
+  
   top: 0px;
   left: 17px;
 }
@@ -10143,7 +10141,7 @@ blog-share-settings,
 
 .floating-popup.floating-popup-list h5 {
   font-size: 17px;
-  font-family: proxima-nova, sans-serif;
+  
   font-weight: bold;
   color: #000a38 !important;
 }
@@ -10765,7 +10763,7 @@ div.action-domain-wrapper a.action-url {
 }
 
 .clip-container .empty-message {
-  font-family: proxima-nova, sans-serif !important;
+  
   padding: 18px 0 30px !important;
 }
 
@@ -10882,7 +10880,7 @@ div.action-domain-wrapper a.action-url {
 }
 
 .clip-container.custom-scroll {
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .bookings-nav .larger-nav-with-icons span.material-icons,
@@ -12321,7 +12319,7 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
 
 .not-visible-badge {
   border-radius: 4px;
-  font-family: proxima-nova, sans-serif !important;
+  
   color: #000;
   font-size: 14px;
   line-height: 32px;
@@ -12371,7 +12369,7 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
 
 .empty-column-settings {
   border-radius: 4px;
-  font-family: proxima-nova, sans-serif;
+  
   background: #2291f8 !important;
 }
 
@@ -12880,7 +12878,7 @@ li.funnel-step-popup.with-ab-test .page-buttons-wrapper {
 }
 
 .floating-popup .bound-popup ul li a {
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .floating-popup .bound-popup ul li.active {
@@ -13926,7 +13924,7 @@ div[data-role="profile-data"] h3 {
 .floating-popup.floating-popup-list a.dash-dropdown-nav,
 .project-dropdown-info,
 .project-dropdown-info h3 {
-  font-family: proxima-nova, sans-serif !important;
+  
 }
 
 .project-dropdown-info h3 {
