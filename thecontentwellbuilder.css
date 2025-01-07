@@ -10129,6 +10129,7 @@ blog-share-settings,
   color: #000a38 !important;
 }
 
+/* 
 .rename-icon {
   position: absolute;
   margin-left: 10px !important;
@@ -10150,7 +10151,7 @@ blog-share-settings,
   padding: 40px;
   max-width: max-content !important;
   padding-right: 70px;
-}
+} */
 
 .dashboard-header h1.pick-template-title {
   font-weight: bold;
@@ -10160,12 +10161,14 @@ blog-share-settings,
   opacity: unset;
 }
 
+/*
 .dash-skin-1 .upper-title,
 .dash-skin-1 .lower-title,
 .dash-skin-3 .dashboard-header h1,
 .dash-skin-1 a[data-action="switchProject"] {
   color: #444 !important;
 }
+*/
 
 .loadingBarContainer {
   background: #fff !important;
@@ -12341,10 +12344,6 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
   display: none !important;
 }
 
-.new-dashboard-wrapper {
-  background: #fff;
-}
-
 .crm-filters li:hover > a::before,
 .crm-filters li.active a::before {
   top: 12px;
@@ -14392,12 +14391,30 @@ a[data-action="composeEmail"].button-tooltip:hover {
 
 
 /** SIGH NEW CSS **/
+body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-content h3, .dropdown-content h4, .dropdown-content h5, .dropdown-content h6, .dropdown-content a.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav
+{
+	font-family: var(--globalFont);
+}
 .working-area-wrapper-inner.working-area-wrapper-inner
 {
 	border-radius: 12px 0px 0px 0px;
 }
-body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-content h3, .dropdown-content h4, .dropdown-content h5, .dropdown-content h6, .dropdown-content a.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav
+.dashboard-area .dashboard-content-wrapper.dashboard-content-wrapper
 {
-	font-family: var(--globalFont);
+	max-width: unset;
+}
+.new-dashboard-wrapper, .engage-main-nav, .store-mobile-nav {
+  background: var(--globalBg);
+}
+.new-dashboard-wrapper .dashboard-header.dashboard-header.dashboard-header {
+	box-shadow: none;
+}
+.new-dashboard-wrapper .dashboard-content-outer.dashboard-content-outer {
+	background: #fff;
+	border-radius: 12px 0px 0px 0px;
+}
+.new-dashboard-wrapper .dashboard-content-wrapper .upper-navigation {
+	width: 100%;
+	margin: 0px;
 }
 /** END OF SIGH NEW CSS **/
