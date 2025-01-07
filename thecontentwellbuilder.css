@@ -5197,6 +5197,7 @@ img.top-bar-logo {
   .working-area-wrapper-inner
   .builder-action-lane.website-action-lane {
   height: 42px;
+  border-bottom: 1px solid rgba(21, 20, 24, 0.05);
 }
 
 body.cpanel-background .viewport-buttons ul li {
@@ -14385,4 +14386,13 @@ a[data-action="composeEmail"].button-tooltip:hover {
   a:nth-child(2):hover {
   color: #2291f8 !important;
   transition: color 0.3s ease !important;
+}
+
+
+
+
+
+.working-area-wrapper-inner.working-area-wrapper-inner
+{
+	border-radius: 12px 0px 0px 0px;
 }
