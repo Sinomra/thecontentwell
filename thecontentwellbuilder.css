@@ -14388,12 +14388,15 @@ a[data-action="composeEmail"].button-tooltip:hover {
   transition: color 0.3s ease !important;
 }
 
+
+
+
 /** SIGH NEW CSS **/
 .working-area-wrapper-inner.working-area-wrapper-inner
 {
 	border-radius: 12px 0px 0px 0px;
 }
-body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-content h3, .dropdown-content h4, .dropdown-content h5, .dropdown-content h6, .dropdown-content a.dash-dropdown-nav
+body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-content h3, .dropdown-content h4, .dropdown-content h5, .dropdown-content h6, .dropdown-content a.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav
 {
 	font-family: var(--globalFont);
 }
