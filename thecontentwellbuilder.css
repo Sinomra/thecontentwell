@@ -1,4 +1,4 @@
-/* #eff2f0 */
+:root{ --globalBg: #eff2f0; }
 
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -153,10 +153,6 @@ span.explain-text.ta-left.f-left.col20.mb-15,
 
 .dash-skin-1 .dashboard-content-wrapper .upper-navigation {
   box-shadow: none;
-}
-
-.store-navigation {
-  background: #fff;
 }
 
 .pricetable-wrapper.transition-all {
@@ -1423,18 +1419,8 @@ body.cpanel-background.narrow-nav .working-area-wrapper {
   text-align: left;
 }
 
-.store-navigation {
-  padding: 40px 35px;
-  justify-content: start;
-  border-right: 1px solid #e1e1e1;
-}
-
 #storeNav {
   margin-top: 0px !important;
-}
-
-body.members-nav .working-area-wrapper-inner {
-  background-color: #fff !important;
 }
 
 body.cpanel-background .big-filter-nav,
@@ -3580,10 +3566,6 @@ body.cpanel-background
   text-transform: capitalize !important;
 }
 
-.engage-main-nav {
-  width: 42px;
-}
-
 .engage-main-link:hover::before,
 .engage-main-link.active::before {
   left: 0px;
@@ -3619,10 +3601,6 @@ body.cpanel-background
   color: #495057;
   left: 3px;
   top: 1px;
-}
-
-.engage-main-nav {
-  width: 42px;
 }
 
 .engage-main-link:hover::before,
@@ -4924,12 +4902,6 @@ body.cpanel-background
   cursor: pointer;
 }
 
-.logo-navs-wrapper .top-bar-nav-item.active:not(.switch-funnel-site) {
-  /* background-color: #fff !important;
-  color: #2291f8 !important; */
-  background-color: rgb(224, 231, 219) !important;
-}
-
 body.cpanel-background #action-bar .top-bar-logo-wrapper {
   width: 55px;
 }
@@ -5045,13 +5017,6 @@ img.top-bar-logo {
 .switch-funnel-site[data-action="showWebsitesDialog"] {
   width: 257px;
   max-width: inherit;
-}
-
-#action-bar
-  .logo-navs-wrapper
-  .top-bar-nav-item:not(.switch-funnel-site):hover {
-  background-color: #fff !important;
-  color: #2291f8 !important;
 }
 
 #action-bar .logo-navs-wrapper .top-bar-nav-item#webBtn {
@@ -7014,9 +6979,13 @@ body.cpanel-background .working-area-wrapper-inner > div:not(.working-area) h1 {
   font-size: 24px;
 }
 
-.store-navigation {
+.store-navigation.store-navigation {
   height: calc(100% - 42px);
   margin-top: 42px;
+  padding: 40px 35px;
+  justify-content: start;
+  background: var(--globalBg);
+  border: none;
 }
 
 body.cpanel-background
@@ -14163,11 +14132,6 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
   text-transform: capitalize;
 }
 
-.store-nav .store-navigation {
-  margin-left: 41px;
-  border-left: 1px solid #ecedf3;
-}
-
 .popup-widget-wrapper .container-type.modal-select li.active a,
 .popup-widget-wrapper .container-type.modal-select li a:hover {
   color: #fff !important;
@@ -14395,10 +14359,15 @@ body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-c
 {
 	font-family: var(--globalFont);
 }
-.working-area-wrapper-inner.working-area-wrapper-inner
+.working-area-wrapper-inner.working-area-wrapper-inner,
+.working-area-wrapper-inner.working-area-wrapper-inner .account-settings
 {
 	border-radius: 12px 0px 0px 0px;
 }
+/*.members-nav .working-area-wrapper-inner.working-area-wrapper-inner
+{
+	border-radius: 0px;
+}*/
 .dashboard-area .dashboard-content-wrapper.dashboard-content-wrapper
 {
 	max-width: unset;
@@ -14416,5 +14385,37 @@ body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-c
 .new-dashboard-wrapper .dashboard-content-wrapper .upper-navigation {
 	width: 100%;
 	margin: 0px;
+}
+
+.members-nav .filter-nav.members-subnav {
+  background: var(--globalBg);
+  border: 0px;
+}
+
+body.members-nav .working-area-wrapper-inner {
+	background-color: #fff;
+}
+body.members-nav .working-area-wrapper-inner:before /* to emphasize border radius */
+{
+	content: '';
+	position: absolute;
+	background: var(--globalBg);
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 15px;
+}
+body.members-nav .members-navigation.engage-navigation .engage-main-nav
+{
+	width: 0;
+}
+
+.logo-navs-wrapper .top-bar-nav-item.active:not(.switch-funnel-site) {
+  background-color: rgb(224, 231, 219) !important;
+  font-weight: bold;
+}
+.logo-navs-wrapper .top-bar-nav-item:hover:not(.switch-funnel-site) {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  font-weight: bold;
 }
 /** END OF SIGH NEW CSS **/
