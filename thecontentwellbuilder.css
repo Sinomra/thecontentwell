@@ -1,6 +1,9 @@
 :root {
 	--globalBg: #eff2f0;
 	
+	--contentwelldgreen: rgba(61, 78, 75, 1);
+	--contentwelllgreen: rgba(209, 221, 211, 1);
+	
 	--widgetshadow: 0 0 0 2px rgba(190, 121, 85, 1);
 	--widgetcolor: rgba(190, 121, 85, 1);
 	
@@ -5103,7 +5106,7 @@ img.top-bar-logo {
 
 #upgrade-btn-notif a {
   /* background: rgb(91, 83, 255) !important; */
-  background: var(--colcolor) !important;
+  background: var(--contentwelldgreen) !important;
   border-radius: 0.25rem;
   color: #fff !important;
   font-weight: bold;
@@ -5112,7 +5115,7 @@ img.top-bar-logo {
 }
 
 #upgrade-btn-notif a:hover {
-  background: rgb(76, 68, 255) !important;
+  background: var(--contentwelllgreen) !important;
 }
 
 #upgrade-btn-notif .middle-button svg {
@@ -5172,10 +5175,12 @@ img.top-bar-logo {
   .builder-action-lane.website-action-lane {
   height: 42px;
   border-bottom: 1px solid rgba(21, 20, 24, 0.05);
+  background: var(--contentwelldgreen) !important;
 }
 
 body.cpanel-background .viewport-buttons ul li {
   margin: 6px;
+  filter: brightness(10);
 }
 
 .viewport-buttons a {
@@ -5230,7 +5235,7 @@ body.cpanel-background
   content: "Domain Settings";
   font-size: 12px;
   /* color: #116dff; */
-  color: var(--colcolor);
+  color: var(--contentwelldgreen);
 }
 
 .action-domain .connect-domain {
@@ -14422,5 +14427,4 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
   background-color: rgba(0, 0, 0, 0.05) !important;
   font-weight: bold;
 }
-
 /** END OF SIGH NEW CSS **/
