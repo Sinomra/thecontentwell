@@ -1,5 +1,6 @@
 :root {
 	--globalBg: #eff2f0;
+	--globalBlue: #1A546D;
 	
 	--contentwelldgreen: rgba(61, 78, 75, 1);
 	--contentwelllgreen: rgba(209, 221, 211, 1);
@@ -7,12 +8,19 @@
 	--widgetshadow: 0 0 0 2px rgba(190, 121, 85, 1);
 	--widgetcolor: rgba(190, 121, 85, 1);
 	
-	--columnshadow: 0 0 0 2px rgba(121, 189, 187, 1);
+	/*--columnshadow: 0 0 0 2px rgba(121, 189, 187, 1);
 	--columnopacshadow: 0 0 0 2px rgba(121, 189, 187, 0.3);
 	--columnborder: 0 0 0 2px rgba(121, 189, 187, 0.3);
 	--columnopacborder: 0 0 0 2px rgba(121, 189, 187, 0.3);
 	--colcolor: rgba(121, 189, 187, 1);
-	--colopaccolor: rgba(121, 189, 187, 0.5);
+	--colopaccolor: rgba(121, 189, 187, 0.5);*/
+	
+	--columnshadow: 0 0 0 2px #1A546DFF;
+	--columnopacshadow: 0 0 0 2px #1A546D4D;
+	--columnborder: 0 0 0 2px #1A546D4D;
+	--columnopacborder: 0 0 0 2px #1A546D4D;
+	--colcolor: #1A546DFF;
+	--colopaccolor: #1A546D7F;
 	
 	--sectioncolor: rgba(122, 189, 139, 1);
 	--sectionopaccolor: rgba(122, 189, 139, 0.5);
@@ -12329,8 +12337,8 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
 
 .empty-column-settings {
   border-radius: 4px;
-  
-  background: #2291f8 !important;
+  /* background: #2291f8 !important; */
+  background: var(--globalBlue) !important;
 }
 
 .publishBlogPostBtn {
@@ -14426,5 +14434,14 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 .logo-navs-wrapper .top-bar-nav-item:hover:not(.switch-funnel-site) {
   background-color: rgba(0, 0, 0, 0.05) !important;
   font-weight: bold;
+}
+
+.color-heading-bg .store-products .top-background-wrapper, .color-heading-bg .store-view .top-background-wrapper, .color-heading-bg .color-bg-apply, .with-top-background:before
+{
+	background-color: #fff;
+}
+.contact-sidebar.contact-sidebar
+{
+	background-color: var(--globalBg);
 }
 /** END OF SIGH NEW CSS **/
