@@ -14438,7 +14438,7 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 
 .color-heading-bg .store-products .top-background-wrapper, .color-heading-bg .store-view .top-background-wrapper, .color-heading-bg .color-bg-apply, .with-top-background:before
 {
-	background-color: #fff;
+	background-color: var(--globalBg);
 }
 .contact-sidebar.contact-sidebar
 {
