@@ -14246,9 +14246,6 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
   margin-top: -5px !important;
 }
 
-img.system-email-box-img {
-  display: none;
-}
 .recipients-summary {
   justify-content: center;
 }
