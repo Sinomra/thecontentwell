@@ -177,7 +177,7 @@ span.explain-text.ta-left.f-left.col20.mb-15,
 }
 
 .dash-skin-1 .dashboard-content-wrapper .upper-navigation li a.active:before {
-  background-color: rgb(91, 83, 255);
+  background-color: var(--globalButton);
 }
 
 .dash-skin-1 .dashboard-content-wrapper .upper-navigation {
@@ -1073,7 +1073,7 @@ a.middle-button.blue.transition-all {
 .add-portfolio-widget .video textarea:focus,
 .cpanel-popup.full-height-popup textarea:hover,
 .cpanel-popup.full-height-popup textarea:focus {
-  border-color: rgb(91, 83, 255) !important;
+  border-color: var(--globalButton) !important;
 }
 
 .cpanel-popup,
@@ -1637,7 +1637,7 @@ body.cpanel-background
   textarea:hover,
 body.cpanel-background .modal-nav > ul li:hover a,
 body.cpanel-background .modal-nav > ul li.active a {
-  border-color: rgb(91, 83, 255) !important;
+  border-color: var(--globalButton) !important;
 }
 
 body.cpanel-background
@@ -2487,7 +2487,7 @@ a[data-role="new-service"]:hover,
 .messages-wrapper li.active::before,
 .messages-wrapper li:hover::before,
 .funnel-step-wrapper.active::before {
-  background-color: rgb(91, 83, 255) !important;
+  background-color: var(--globalButton) !important;
   display: none;
 }
 
@@ -3122,7 +3122,7 @@ body.cpanel-background
   ul
   li
   a:after {
-  background-color: rgb(91, 83, 255) !important;
+  background-color: var(--globalButton) !important;
 }
 
 .cpanel-popup .cpanel-popup-content .popup-input-wrapper .no-calendar-wrapper,
@@ -3154,7 +3154,7 @@ body.cpanel-background
   a.highlighted-list-item,
 .copy-funnel-url:hover,
 .funnel-step-name:hover:before {
-  color: rgb(91, 83, 255) !important;
+  color: var(--globalButton) !important;
 }
 
 #blogItem .wrapper .blog-edit-area .blog-buttons-wrapper .back-to-builder {
@@ -3166,7 +3166,7 @@ body.cpanel-background
   .blog-edit-area
   .blog-buttons-wrapper
   .back-to-builder:hover {
-  color: rgb(91, 83, 255) !important;
+  color: var(--globalButton) !important;
 }
 
 body.cpanel-background
@@ -3296,7 +3296,7 @@ body.cpanel-background
 }
 
 .blue-text[data-action="editMembersSettings"]:hover {
-  color: rgb(91, 83, 255) !important;
+  color: var(--globalButton) !important;
 }
 
 .header-label-wrapper.header-label-wrapper p.header-label span.arrow {
@@ -3325,8 +3325,8 @@ body.cpanel-background
 }
 
 .action-domain-wrapper .action-domain:hover a.action-url {
-  color: rgb(91, 83, 255) !important;
-  border-bottom: 1px solid rgb(91, 83, 255);
+  color: var(--globalButton) !important;
+  border-bottom: 1px solid var(--globalButton);
 }
 
 .popup-layout,
@@ -3409,7 +3409,7 @@ body.cpanel-background
   .funnels-box-wrapper
   h4
   a.percent {
-  color: rgb(91, 83, 255) !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup.code-settings-window.funnel-settings
@@ -4259,7 +4259,7 @@ a.delete-coupon i:before {
 }
 
 .edit-coupon:hover {
-  color: rgb(91, 83, 255) !important;
+  color: var(--globalButton) !important;
 }
 
 .disable-coupon {
@@ -5115,7 +5115,7 @@ img.top-bar-logo {
 }
 
 #upgrade-btn-notif a {
-  /* background: rgb(91, 83, 255) !important; */
+  /* background: var(--globalButton) !important; */
   background: var(--globalButton) !important;
   border-radius: 0.25rem;
   color: #fff !important;
@@ -5371,7 +5371,7 @@ h3.global-title,
 .active.system-border-color-active,
 .pagesWindow .cpanel-pageGroup-header.active,
 .pagesWindow .virtual-page-funnel ul.folder-items li.active {
-  border-color: rgb(91, 83, 255) !important;
+  border-color: var(--globalButton) !important;
 }
 
 .cpanel-popup.full-height-popup
@@ -9398,8 +9398,8 @@ body.cpanel-background
   margin-left: 5px;
   text-transform: capitalize;
   color: #fff !important;
-  background: rgb(91, 83, 255) !important;
-  border: 1px solid rgb(91, 83, 255) !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
 }
 
 body.cpanel-background
@@ -9807,7 +9807,7 @@ body.cpanel-background
 }
 
 .cpanel-popup .symbol-input:hover {
-  border-color: rgb(91, 83, 255) !important;
+  border-color: var(--globalButton) !important;
 }
 
 .account-settings
@@ -10381,7 +10381,7 @@ span.explain-text,
 }
 
 .web-settings-content .websiteTimezone:hover {
-  color: rgb(91, 83, 255) !important;
+  color: var(--globalButton) !important;
 }
 
 div[data-role="apps-list"] h3 {
@@ -13502,12 +13502,13 @@ tr.product-header:hover {
   a:hover,
 .profile-inner-wrapper .upper-navigation-full a.active,
 .profile-inner-wrapper .upper-navigation-full a:hover {
-  border-color: rgb(91, 83, 255) !important;
-  border-bottom: 2px solid;
-  background: none !important;
-  border-radius: 0;
-  color: #605e80 !important;
-  font-size: 14px !important;
+	/*border-color: rgb(91, 83, 255) !important;*/
+	border-color: var(--globalButton) !important;
+	border-bottom: 2px solid;
+	background: none !important;
+	border-radius: 0;
+	color: #605e80 !important;
+	font-size: 14px !important;
 }
 
 .sections-wrapper.members-wrapper .section-bg.members-wrapper a {
@@ -13764,7 +13765,7 @@ a.check-button2 {
 }
 
 .big-button.blue.inline-block.f-none[data-role="continue"] {
-  background: rgb(91, 83, 255) !important;
+  background: var(--globalButton) !important;
   border-radius: 0.25rem;
   padding: 14px 20px;
 }
@@ -13909,7 +13910,7 @@ div[data-role="profile-data"] h3 {
 }
 
 .project-status-wrapper a {
-  /*background: rgb(91, 83, 255) !important; */
+  /*background: var(--globalButton) !important; */
   background: var(--globalButton) !important;
   border-radius: 0.25rem;
   color: #fff !important;
