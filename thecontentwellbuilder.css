@@ -2,6 +2,8 @@
 	--globalBg: #eff2f0;
 	--globalBlue: #1A546D;
 	
+	--globalButton: #1A546D;
+	
 	--contentwelldgreen: rgba(61, 78, 75, 1);
 	--contentwelllgreen: rgba(209, 221, 211, 1);
 	
@@ -516,7 +518,7 @@ a.middle-button.blue.transition-all {
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
 }
 
 .cpanel-background
@@ -735,7 +737,7 @@ a.middle-button.blue.transition-all {
 .funnel-inner-wrapper.admin-view.active:after,
 .funnel-step-wrapper.admin-view.active:after,
 .funnel-inner-wrapper.admin-view:hover:after {
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
 }
 
 .cpanel-background
@@ -873,7 +875,7 @@ a.middle-button.blue.transition-all {
   > a.middle-button {
   text-transform: capitalize;
   border-radius: 4px;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
 }
 
 .cpanel-background
@@ -1195,8 +1197,8 @@ a.middle-button[data-role="createNewFunnel"],
   border-radius: 4px;
   float: right;
   text-transform: capitalize;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   color: #fff !important;
   transition: background-color 0.3s ease !important;
 }
@@ -1511,7 +1513,7 @@ body.cpanel-background
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   border: 0;
   color: #fff !important;
 }
@@ -1537,7 +1539,7 @@ body.cpanel-background
   > div:not(.working-area)
   .add-group:hover,
 .dashboard-content-outer .dash-icon {
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
 }
 
 body.cpanel-background
@@ -2352,10 +2354,10 @@ a[data-role="new-service"],
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  border: 1px solid #2291f8 !important;
+  border: 1px solid var(--globalButton) !important;
   background-color: #fff !important;
   border: 0;
-  color: #2291f8;
+  color: var(--globalButton);
   transition: background-color 0.3s ease !important;
 }
 
@@ -2476,7 +2478,7 @@ a[data-role="new-operator"]:hover,
 a[data-role="new-service"]:hover,
 .new-dashboard-wrapper .dashboard-header [data-action="switchProject"]:hover,
 .store-product-buttons .rounded-effect:hover {
-  background-color: #2291f8 !important;
+  background-color: var(--globalButton) !important;
   color: #fff !important;
   transition: background-color 0.3s ease !important;
 }
@@ -3013,8 +3015,8 @@ body.cpanel-background
   margin-left: 5px;
   text-transform: capitalize;
   color: #fff !important;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
 }
 
 .cpanel-popup .button-wrapper [title="Delete"],
@@ -3192,17 +3194,17 @@ body.cpanel-background
 
 .crm-option {
   background: rgb(91, 83, 255, 0.2) !important;
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   transition: none;
 }
 
 .crm-option:hover {
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   color: #fff !important;
 }
 
 .crm-option svg {
-  fill: #2291f8 !important;
+  fill: var(--globalButton) !important;
 }
 
 .crm-option:hover svg {
@@ -3265,7 +3267,7 @@ body.cpanel-background
   .global-nav-content
   a.back:hover,
 #tagsUI #tagsBody .small-cell.text-btn a:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .floating-popup.floating-popup-list ul li:hover {
@@ -4124,7 +4126,7 @@ a.delete-coupon i:before {
 }
 
 #blogList .moveToDrafts:hover {
-  color: #2291f8;
+  color: var(--globalButton);
 }
 
 .cpanel-popup-content
@@ -5114,7 +5116,7 @@ img.top-bar-logo {
 
 #upgrade-btn-notif a {
   /* background: rgb(91, 83, 255) !important; */
-  background: var(--contentwelldgreen) !important;
+  background: var(--globalButton) !important;
   border-radius: 0.25rem;
   color: #fff !important;
   font-weight: bold;
@@ -5123,7 +5125,7 @@ img.top-bar-logo {
 }
 
 #upgrade-btn-notif a:hover {
-  background: var(--contentwelllgreen) !important;
+  background: var(--globalButton) !important;
 }
 
 #upgrade-btn-notif .middle-button svg {
@@ -5228,7 +5230,7 @@ body.cpanel-background .viewport-buttons ul li {
 }
 
 .viewport-buttons.white-viewport-buttons a.active::before {
-  color: #2291f8;
+  color: var(--globalButton);
 }
 
 .viewport-buttons.white-viewport-buttons a img {
@@ -5876,7 +5878,7 @@ span#virtualBtn-4 a,
   .cpanel-popup-content
   .cpanel-popup-content-inner
   a.label-link:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .full-height-popup.cpanel-popup
@@ -6011,7 +6013,7 @@ span#virtualBtn-4 a,
   a[data-role="editProducts"]
   + a[data-role="reorderProducts"]:hover,
 .product-select-wrapper h4 + a.text-link.blue-text:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup.full-height-popup .color-pick-wrap div {
@@ -6160,8 +6162,8 @@ span#virtualBtn-4 a,
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   float: left;
 }
 
@@ -6627,7 +6629,7 @@ span#virtualBtn-4 a,
 .cpanel-popup
   .cpanel-popup-content-inner
   .blue-text[data-action="editBooking"]:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   text-decoration: underline;
   text-decoration-color: rgb(91, 93, 255) !important;
 }
@@ -6790,7 +6792,7 @@ span#virtualBtn-4 a,
   .product-select-wrapper
   .ab-step
   a.blue-text:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup .cpanel-popup-content #stepShadow {
@@ -7453,15 +7455,15 @@ body.cpanel-background
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  border: 1px solid #2291f8 !important;
+  border: 1px solid var(--globalButton) !important;
   background-color: #fff !important;
   border: 0;
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup.full-height-popup .middle-button.gray:hover {
   background-color: rgb(91, 83, 255, 0.12) !important;
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup.full-height-popup .image-tick-wrapper {
@@ -7671,7 +7673,7 @@ body.cpanel-background
   .floating-lane
   .content-wrapper
   a[href="/me/crm/bookings"]:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup-nav .button-wrapper [title="Delete Property"],
@@ -7697,7 +7699,7 @@ body.cpanel-background
 
 .cpanel-popup a.add-option:hover {
   text-decoration: underline;
-  color: #2291f8;
+  color: var(--globalButton);
 }
 
 .rich-text-area .note-editable {
@@ -8025,8 +8027,8 @@ body.cpanel-background
   min-width: 72px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
 }
 
 .blog-settings-area .add-blog-tags .blog-share-settings {
@@ -9098,7 +9100,7 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper input {
   .cpanel-popup-content
   .bump-row-wrapper
   .blue-text:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .cpanel-popup.full-height-popup .cpanel-popup-content .product-bumps {
@@ -10663,7 +10665,7 @@ textarea.field-length-short:focus {
   font-family: inherit !important;
   position: unset;
   font-size: 12px;
-  color: #2291f8;
+  color: var(--globalButton);
 }
 
 .custom-switch-dialog .funnel-controls a.preview-icon:before {
@@ -10681,7 +10683,7 @@ textarea.field-length-short:focus {
   border-radius: 4px !important;
   width: auto !important;
   margin-top: 15px;
-  border: 1px solid #2291f8;
+  border: 1px solid var(--globalButton);
 }
 
 .custom-switch-dialog .funnel-controls a:hover,
@@ -10977,7 +10979,7 @@ div.action-domain-wrapper a.action-url {
 }
 
 .booked-events-wrapper #bookingEvents .no-data-image a[rel="tab"] {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .store-products [data-role="contact-name"] h1 i.booking-name::before {
@@ -10997,7 +10999,7 @@ a[data-role="new-operator"] {
 a[data-role="new-operator"]::after {
   left: 10px !important;
   top: -7px !important;
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 a[data-role="new-operator"]:hover::after {
@@ -11011,7 +11013,7 @@ a[data-role="new-service"] {
 a[data-role="new-service"]::after {
   left: 10px !important;
   top: -7px !important;
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 a[data-role="new-service"]:hover::after {
@@ -11060,7 +11062,7 @@ a[data-role="new-service"]:hover::after {
 }
 
 .invite-wrapper a[data-action="sendInvitationBtnClick"] {
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   border-radius: 6px;
 }
 
@@ -11171,7 +11173,7 @@ a[data-role="new-service"]:hover::after {
 
 [data-action="toggleProperties"],
 .subcategories-wrapper [data-role="add"] {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   margin-top: 20px;
   text-decoration: underline;
 }
@@ -11197,15 +11199,15 @@ a[data-role="new-service"]:hover::after {
 .account-settings.store-products a.crm-option {
   border-radius: 6px;
   background: none !important;
-  border: 1px solid #2291f8;
+  border: 1px solid var(--globalButton);
 }
 
 .account-settings.store-products a.crm-option svg {
-  fill: #2291f8 !important;
+  fill: var(--globalButton) !important;
 }
 
 .account-settings.store-products a.crm-option:hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .account-settings.store-products .crm-option[data-action="tagItems"],
@@ -11245,7 +11247,7 @@ a[data-role="new-service"]:hover::after {
 }
 
 .new-dashboard-wrapper .dashboard-header [data-action="switchProject"] {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   text-decoration: unset !important;
 }
 
@@ -11375,17 +11377,17 @@ a[data-role="new-service"]:hover::after {
 }
 
 .popup-newpage-wrapper #memberGroupsWrapper .groups .add-group a {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   text-transform: capitalize;
   background: #fff;
-  border: 1px solid #2291f8 !important;
+  border: 1px solid var(--globalButton) !important;
   border-radius: 6px;
 }
 
 .popup-newpage-wrapper #memberGroupsWrapper .groups .add-group a:hover {
   color: #fff !important;
   text-transform: capitalize;
-  background: #2291f8;
+  background: var(--globalButton);
   border: 1px solid #fff !important;
   border-radius: 6px;
 }
@@ -11846,8 +11848,8 @@ div#editPortfolioHeaderHolder .cancel {
   padding: 0px 30px;
   border-radius: 4px;
   float: right;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   color: #fff !important;
   transition: background-color 0.3s ease !important;
   margin-top: 7.5px;
@@ -11864,8 +11866,8 @@ div#editPortfolioHeaderHolder .cancel {
   padding: 0px 30px;
   border-radius: 4px;
   float: right;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   color: #fff !important;
   transition: background-color 0.3s ease !important;
   margin-top: 7px;
@@ -12014,7 +12016,7 @@ span.onoffswitch-switch {
 
 .email-builder-content .upper-navigation li a.active,
 .ab-email-navigation li a.active {
-  background-color: #2291f8 !important;
+  background-color: var(--globalButton) !important;
 }
 
 .form-admin-style-2 .options-wrapper .delete {
@@ -12186,8 +12188,8 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
 .add-portfolio-widget #portfolioAddCategories {
   border-radius: 4px;
   color: #fff !important;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   position: relative;
 }
 
@@ -12235,7 +12237,7 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
   width: 40px;
   height: 40px;
   background: none;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
 }
 
 .popup-widget-wrapper .form-wrapper + .square-add:before {
@@ -12306,8 +12308,8 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
   float: right;
   font-size: 14px;
   text-transform: capitalize;
-  background: #2291f8;
-  border: 1px solid #2291f8;
+  background: var(--globalButton);
+  border: 1px solid var(--globalButton);
   color: #fff;
   transition: background-color 0.3s ease;
 }
@@ -12337,7 +12339,7 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
 
 .empty-column-settings {
   border-radius: 4px;
-  /* background: #2291f8 !important; */
+  /* background: var(--globalButton) !important; */
   background: var(--globalBlue) !important;
 }
 
@@ -12527,7 +12529,7 @@ body.cpanel-background
 }
 
 .message-wrapper .message-wrapper-header .blue-text.profile-link {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   text-transform: capitalize;
 }
 
@@ -12550,7 +12552,7 @@ body.cpanel-background
   .popup-input-wrapper:nth-child(2)
   .f-right
   a.blue-text {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 #itemsCountWrapper .input-wrapper#itemsCount .info > label {
@@ -12674,7 +12676,7 @@ ul.option-select
 #bookingEvents .crm-table a.operator-schedule,
 #tagsUI #tagsBody .small-cell.text-btn a,
 .small-info-text[data-role="rename-global"] {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .dashboard-content-wrapper a[data-action="deleteAccount"] {
@@ -12835,7 +12837,7 @@ li.funnel-step-popup.with-ab-test .page-buttons-wrapper {
 
 .analytics-box a.blue-text,
 .goal-stats-wrapper .underline-hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 [data-role="time-picker"] .custom-dropdown .custom-dropdown-button {
@@ -12893,7 +12895,7 @@ li.funnel-step-popup.with-ab-test .page-buttons-wrapper {
   padding: 0px 10px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   transition: background-color 0.3s ease !important;
 }
 
@@ -12951,15 +12953,15 @@ li.funnel-step-popup.with-ab-test .page-buttons-wrapper {
 .store-nav a.blue-text {
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
 }
 
 .store-navigation .website-actions#storeNav ul + a[data-action="previewStore"] {
   border-radius: 4px;
   text-transform: capitalize;
-  border: 1px solid #2291f8 !important;
+  border: 1px solid var(--globalButton) !important;
   background-color: #fff !important;
-  color: #2291f8;
+  color: var(--globalButton);
   transition: background-color 0.3s ease !important;
   line-height: 42px;
 }
@@ -12968,7 +12970,7 @@ li.funnel-step-popup.with-ab-test .page-buttons-wrapper {
   .website-actions#storeNav
   ul
   + a[data-action="previewStore"]:hover {
-  background-color: #2291f8 !important;
+  background-color: var(--globalButton) !important;
   color: #fff;
   border: 0;
 }
@@ -13199,7 +13201,7 @@ section.multiple-items-picker .gray-section {
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   border: 0;
   color: #fff !important;
 }
@@ -13233,9 +13235,9 @@ section.multiple-items-picker .gray-section {
   .groups
   .add-group
   [data-action="chooseMemberGroups"] {
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   color: #fff !important;
-  border: 1px solid #2291f8 !important;
+  border: 1px solid var(--globalButton) !important;
 }
 
 .popup-newpage-wrapper
@@ -13243,7 +13245,7 @@ section.multiple-items-picker .gray-section {
   .groups
   .add-group
   [data-action="chooseMemberGroups"]:hover {
-  border: 1px solid #2291f8 !important;
+  border: 1px solid var(--globalButton) !important;
 }
 
 .multiple-items-picker .add-group a[data-action="chooseProductCategories"] {
@@ -13455,7 +13457,7 @@ tr.product-header:hover {
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   border: 0;
   color: #fff !important;
   float: right;
@@ -13537,7 +13539,7 @@ input.search-input[placeholder="Search List / Segment by name"] {
   padding: 0px 12px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   border: 0;
   color: #fff !important;
 }
@@ -13592,8 +13594,8 @@ body.cpanel-background
   padding: 0px 30px;
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   color: #fff !important;
   transition: background-color 0.3s ease !important;
 }
@@ -13907,7 +13909,8 @@ div[data-role="profile-data"] h3 {
 }
 
 .project-status-wrapper a {
-  background: rgb(91, 83, 255) !important;
+  /*background: rgb(91, 83, 255) !important; */
+  background: var(--globalButton) !important;
   border-radius: 0.25rem;
   color: #fff !important;
   font-weight: bold;
@@ -13981,8 +13984,8 @@ div[data-role="profile-data"] h3 {
 .copy-affiliate-link {
   border-radius: 4px;
   text-transform: capitalize;
-  background: #2291f8 !important;
-  border: 1px solid #2291f8 !important;
+  background: var(--globalButton) !important;
+  border: 1px solid var(--globalButton) !important;
   color: #fff !important;
   transition: background-color 0.3s ease !important;
 }
@@ -13990,11 +13993,11 @@ div[data-role="profile-data"] h3 {
 .search-inline-wrapper a {
   border-radius: 6px;
   background: none !important;
-  border: 1px solid #2291f8;
+  border: 1px solid var(--globalButton);
 }
 
 .search-inline-wrapper a span {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
 }
 
 .floating-popup.floating-popup-list .bound-popup .search-box-wrapper {
@@ -14326,7 +14329,7 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
 }
 
 a[data-action="composeEmail"].button-tooltip {
-  background: #2291f8 !important;
+  background: var(--globalButton) !important;
   border-radius: 6px;
 }
 a[data-action="composeEmail"].button-tooltip:hover {
@@ -14361,7 +14364,7 @@ a[data-action="composeEmail"].button-tooltip:hover {
   .cpanel-popup-content
   .contact-email-dialog-footer
   a:nth-child(2):hover {
-  color: #2291f8 !important;
+  color: var(--globalButton) !important;
   transition: color 0.3s ease !important;
 }
 
