@@ -2,6 +2,8 @@
 	--globalBg: #eff2f0;
 	--globalBlue: #1A546D;
 	
+	--globalPink: #E89897;
+	
 	--globalButton: #1A546D;
 	
 	--contentwelldgreen: rgba(61, 78, 75, 1);
@@ -11089,8 +11091,8 @@ a[data-role="new-service"]:hover::after {
   width: 155px;
   padding: 3px 20px;
   font-size: 0px;
-  bottom: 20px !important;
-  position: absolute;
+  /*bottom: 20px !important;
+  position: absolute; */
 }
 
 .filter-nav.members-subnav ul [data-action="addMemberGroup"]::before {
@@ -13503,7 +13505,7 @@ tr.product-header:hover {
 .profile-inner-wrapper .upper-navigation-full a.active,
 .profile-inner-wrapper .upper-navigation-full a:hover {
 	/*border-color: rgb(91, 83, 255) !important;*/
-	border-color: var(--globalButton) !important;
+	border-color: var(--globalPink) !important;
 	border-bottom: 2px solid;
 	background: none !important;
 	border-radius: 0;
@@ -13911,7 +13913,7 @@ div[data-role="profile-data"] h3 {
 
 .project-status-wrapper a {
   /*background: var(--globalButton) !important; */
-  background: var(--globalButton) !important;
+  background: var(--globalPink) !important;
   border-radius: 0.25rem;
   color: #fff !important;
   font-weight: bold;
@@ -14439,10 +14441,70 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 
 .color-heading-bg .store-products .top-background-wrapper, .color-heading-bg .store-view .top-background-wrapper, .color-heading-bg .color-bg-apply, .with-top-background:before
 {
-	background-color: var(--globalBg);
+	/* background-color: var(--globalBg); */
+	display: none;
 }
 .contact-sidebar.contact-sidebar
 {
 	background-color: var(--globalBg);
+}
+
+
+.store-nav.store-nav-compact .store-navigation.store-navigation
+{
+	width: 260px !important;
+	padding-left: 35px !important;
+}
+
+.store-nav.store-nav-compact #storeNav#storeNav, .store-nav.store-nav-compact, .store-nav .smaller-help-button
+{
+	display: initial !important;
+}
+
+.store-nav.store-nav-compact .compact-store-nav.compact-store-nav
+/*,.store-nav.store-nav-compact .smaller-help-button.smaller-help-button*/
+{
+	display: none;
+}
+
+.overlapping-nav.store-nav.store-nav-compact .working-area-wrapper.working-area-wrapper.working-area-wrapper
+{
+	margin-left: 260px;
+    width: calc(100% - 260px);
+}
+
+.help-button.big-help-button.big-help-button
+{
+	display: none;
+}
+
+.store-nav #inline-popup.cpanel-popup.cpanel-popup,
+.store-nav.store-nav-compact #inline-popup.cpanel-popup.cpanel-popup
+{
+	left: 0px;
+}
+
+.smaller-help-button.smaller-help-button.smaller-help-button.smaller-help-button.smaller-help-button
+{
+	left: 15px;
+}
+
+.store-nav .smaller-help-button a
+{
+	margin-left: 0px;
+}
+
+.help-button.smaller-help-button a
+{
+	width: max-content;
+	padding-right: 8px;
+}
+.help-button.smaller-help-button a > i
+{
+	margin-right: 8px;
+}
+.help-button.smaller-help-button a:after
+{
+	content: 'TCW ACADEMY';
 }
 /** END OF SIGH NEW CSS **/
