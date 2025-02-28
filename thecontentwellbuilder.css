@@ -5182,12 +5182,16 @@ img.top-bar-logo {
   background-color: #f4f5f8;
 }
 
-.websiteWrapper
-  .working-area-wrapper-inner
-  .builder-action-lane.website-action-lane {
+/*.websiteWrapper .working-area-wrapper-inner .builder-action-lane.website-action-lane*/
+.websiteWrapper .working-area-wrapper-inner .builder-action-lane.builder-action-lane,
+ {
   height: 42px;
   border-bottom: 1px solid rgba(21, 20, 24, 0.05);
   background: var(--contentwelldgreen) !important;
+}
+
+.websiteWrapper .working-area-wrapper-inner .builder-action-lane.builder-action-lane .action-step-funnel {
+	color: #ffffff;
 }
 
 body.cpanel-background .viewport-buttons ul li {
