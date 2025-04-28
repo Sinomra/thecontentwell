@@ -12,19 +12,26 @@
 	--widgetshadow: 0 0 0 2px rgba(190, 121, 85, 1);
 	--widgetcolor: rgba(190, 121, 85, 1);
 	
-	/*--columnshadow: 0 0 0 2px rgba(121, 189, 187, 1);
-	--columnopacshadow: 0 0 0 2px rgba(121, 189, 187, 0.3);
-	--columnborder: 0 0 0 2px rgba(121, 189, 187, 0.3);
-	--columnopacborder: 0 0 0 2px rgba(121, 189, 187, 0.3);
-	--colcolor: rgba(121, 189, 187, 1);
-	--colopaccolor: rgba(121, 189, 187, 0.5);*/
+	/* --columnshadow: 0 0 0 2px rgba(121, 189, 187, 1); */
+	/* --columnopacshadow: 0 0 0 2px rgba(121, 189, 187, 0.3); */
+	/* --columnborder: 0 0 0 2px rgba(121, 189, 187, 0.3); */
+	/* --columnopacborder: 0 0 0 2px rgba(121, 189, 187, 0.3); */
+	/* --colcolor: rgba(121, 189, 187, 1); */
+	/* --colopaccolor: rgba(121, 189, 187, 0.5); */
 	
-	--columnshadow: 0 0 0 2px #1A546DFF;
-	--columnopacshadow: 0 0 0 2px #1A546D4D;
-	--columnborder: 0 0 0 2px #1A546D4D;
-	--columnopacborder: 0 0 0 2px #1A546D4D;
-	--colcolor: #1A546DFF;
-	--colopaccolor: #1A546D7F;
+	/* --columnshadow: 0 0 0 2px #1A546DFF; */
+	/* --columnopacshadow: 0 0 0 2px #1A546D4D; */
+	/* --columnborder: 0 0 0 2px #1A546D4D; */
+	/* --columnopacborder: 0 0 0 2px #1A546D4D; */
+	/* --colcolor: #1A546DFF; */
+	/* --colopaccolor: #1A546D7F; */
+	
+	--columnshadow: 0 0 0 2px #1d76c9FF;
+	--columnopacshadow: 0 0 0 2px #1d76c94D;
+	--columnborder: 0 0 0 2px #1d76c94D;
+	--columnopacborder: 0 0 0 2px ##1d76c94D;
+	--colcolor: #1d76c9FF;
+	--colopaccolor: #1d76c97F;
 	
 	--sectioncolor: rgba(122, 189, 139, 1);
 	--sectionopaccolor: rgba(122, 189, 139, 0.5);
@@ -328,21 +335,6 @@ a.middle-button.blue.transition-all {
   margin-bottom: 27px;
   font-size: 19px;
   font-weight: bold;
-}
-
-.cpanel-background
-  .working-area-wrapper-inner
-  .dashboard-content-wrapper
-  #main-container
-  .account-settings
-  > #customerCardForm
-  > .content-wrapper
-  > #currentPlanSection
-  > .sections-wrapper
-  > .sections-wrapper2 {
-  padding-top: 20px !important;
-  width: 600px;
-  margin-left: 22%;
 }
 
 .cpanel-background
@@ -713,14 +705,9 @@ a.middle-button.blue.transition-all {
   padding-top: 20px;
 }
 
-.cpanel-background
-  .working-area-wrapper-inner
-  .dashboard-content-wrapper
-  #main-container
-  > .col20
-  > .wrapper-800
-  + .wrapper-800 {
-  padding-top: 0px;
+.cpanel-background .working-area-wrapper-inner .dashboard-content-wrapper #main-container > .col20 > .wrapper-800 + .wrapper-800
+{
+	/* padding-top: 0px; */
 }
 
 .cpanel-background
@@ -1009,7 +996,7 @@ a.middle-button.blue.transition-all {
 
 .cpanel-background .dashboard-content-wrapper .upper-navigation {
   border-radius: 0px;
-  border-bottom: 1px solid #e1e1e1;
+  /* border-bottom: 1px solid #e1e1e1; */
 }
 
 .cpanel-background
@@ -3305,12 +3292,16 @@ body.cpanel-background
   font-size: 12px;
 }
 
-body.cpanel-background
-  .builder-action-lane
-  .action-domain-wrapper
-  .action-domain {
-  width: 120px;
-  background: #fff;
+body.cpanel-background .builder-action-lane .action-domain-wrapper .action-domain
+{
+	width: 120px;
+	background: #fff;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body.cpanel-background .builder-action-lane .action-domain-wrapper .action-domain .connect-domain {
+	margin: auto;
 }
 
 .website-action-lane .action-domain {
@@ -3433,6 +3424,7 @@ body.cpanel-background
   border-width: 1px;
   text-indent: 0px !important;
   border: 1px solid #ecedf3;
+  width: 100%;
 }
 
 .cpanel-popup.code-settings-window.funnel-settings
@@ -10364,7 +10356,7 @@ span.explain-text,
 
 .new-domain-section div.col20.t-center {
   float: right !important;
-  transform: translate(-34%, 0%);
+  /* transform: translate(-34%, 0%); */
 }
 
 .domain-item.external .content {
@@ -11112,13 +11104,15 @@ a[data-role="new-service"]:hover::after {
   text-decoration: none;
 }
 
-#inline-popup
-  .inline-popup-content
-  .full-size
-  .web-settings-content
-  .new-domain-section
-  [data-role="connect"] {
-  width: 50px;
+#inline-popup .inline-popup-content .full-size .web-settings-content .new-domain-section [data-role="connect"]
+{
+	width: max-content;
+	font-size: 0;
+}
+#inline-popup .inline-popup-content .full-size .web-settings-content .new-domain-section [data-role="connect"]:before
+{
+	content: 'Connect';
+	font-size: 15px;
 }
 
 .m-width-auto {
@@ -14510,5 +14504,34 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 .help-button.smaller-help-button a:after
 {
 	content: 'TCW ACADEMY';
+}
+
+.cpanel-background .working-area-wrapper-inner .dashboard-content-wrapper #main-container .account-settings > #customerCardForm > .content-wrapper > #currentPlanSection > .sections-wrapper
+{
+	max-width: 600px;
+	float: unset;
+}
+
+.cpanel-background .working-area-wrapper-inner .dashboard-content-wrapper #main-container .account-settings > #customerCardForm > .content-wrapper > #currentPlanSection > .sections-wrapper > .sections-wrapper2
+{
+	padding-top: 20px !important;
+	/* width: 600px; */
+	/* margin-left: 22%; */
+	width: 100%;
+	box-shadow: none !important;
+}
+#chart-container
+{
+	height: 300px;
+	margin-top: 10px;
+}
+.chart-filter .chart-range-filter > .inner-wrapper
+{
+	margin-bottom: 10px;
+}
+
+.cpanel-background .working-area-wrapper-inner .dashboard-content-wrapper #main-container > .col20 > .wrapper-800:first-child
+{
+	border: 0;
 }
 /** END OF SIGH NEW CSS **/
